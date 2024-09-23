@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 0 0 0;
+    flex-direction: column;
+    border: none;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 4px 4px rgb(143, 143, 143);
+    background-color: #f5f8f5;
+}
+
+.signup-container h1{
+    text-align: justify;
+    padding-right: 7rem;
+    width: fit-content;
+    font-size: 37px;
+}
+
+.signup-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup-item input{
+    padding: 10px;
+    width: 250px;
+    font-size: medium;
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.signup-item button{
+    padding: 10px;
+    width: 300px;
+    margin: 20px 0 0 0;
+    font-size:17px;
+    font-weight: 600;
+    color: #f5f8f5;
+    background-color: black;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.signup-item button:hover{
+    transform: translateY(10px);
+    background-color: rgb(72, 72, 72);
+}
+
+.manage-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+}
+
+.manage-conatiner-item{
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+
+.manage-item-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+.manage-item-btn button{
+    padding: 8px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+    transition-duration: .5s;
+}
+
+.manage-item-btn button:nth-child(1){
+    background-color: red;
+}
+.manage-item-btn button:nth-child(2){
+    background-color: rgb(0, 222, 0);
+}
+
+.manage-item-btn button:hover{
+    transform: scale(1.1);
+}
+
+.manage-conatiner-item h4{
+    padding: 4px;
+    text-align: justify;
+    margin: 5px;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.manage-conatiner-item h4 b{
+    padding: 20px;
+    font-size: 20px;
+}
